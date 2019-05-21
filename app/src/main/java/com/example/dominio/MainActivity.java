@@ -40,15 +40,6 @@ public class MainActivity extends AppCompatActivity {
         student_id = (EditText) findViewById(R.id.student_id);
         password = (EditText) findViewById(R.id.password);
 
-        btnRegist = (Button) findViewById(R.id.btnRegist);
-        /*btnRegist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegistActivity.class);
-                startActivityForResult(intent,1000);
-            }
-        });*/
-
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
