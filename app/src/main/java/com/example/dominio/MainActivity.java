@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                /*
 
                 if( student_id.getText().toString().length() == 0 ) {
                     Toast.makeText(MainActivity.this, "학번을 입력하세요!", Toast.LENGTH_SHORT).show();
@@ -62,21 +62,22 @@ public class MainActivity extends AppCompatActivity {
 
                 getData("http://52.11.180.128/dbProject/1.php"); //수정 필요
                 Log.i("after","after");
+                */
 
-/*
-                if(flag == 1)
+                //if(flag == 1)
                 {
                     flag = 0;
-                    Intent intent = new Intent(getApplicationContext(), BoardActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), SelectActivity.class);
                     startActivityForResult(intent,2000);
                 }
-                else
+                /*else
                 {
                     Toast.makeText(MainActivity.this, "잘못입력했습니다.", Toast.LENGTH_SHORT).show();
                     return;
-                }
+                }*/
 
-*/
+
+
             }
         });
     }//on create

@@ -629,6 +629,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable background
+drawable first
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -643,6 +644,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable second
+drawable third
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -679,8 +682,11 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnBoard
+id btnClubList
+id btnFest
 id btnLogin
-id btnRegist
+id btnSetting
 id buttonPanel
 id center
 id center_horizontal
@@ -831,6 +837,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_select
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

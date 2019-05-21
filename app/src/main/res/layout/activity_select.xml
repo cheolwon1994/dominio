@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SelectActivity">
+
+
+    <Button
+        android:id="@+id/btnClubList"
+        android:layout_width="189dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/first" />
+
+    <Button
+        android:id="@+id/btnFest"
+        android:layout_width="189dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="105dp"
+        android:background="@drawable/second"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnBoard"
+        android:layout_width="189dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="105dp"
+        android:background="@drawable/third" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="0dp"
+        android:text="설정" />
+</RelativeLayout>

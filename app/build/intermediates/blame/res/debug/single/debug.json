@@ -276,6 +276,10 @@
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\f6341b45309c5907e4a7da0557e2edf5\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_second.jpg.flat",
+        "source": "C:\\Users\\Public\\Dominio\\app\\src\\main\\res\\drawable-v24\\second.jpg"
+    },
+    {
         "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f5f2e2c9835f97e586b18f6210c9c8e0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -700,6 +704,10 @@
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f5f2e2c9835f97e586b18f6210c9c8e0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_third.jpg.flat",
+        "source": "C:\\Users\\Public\\Dominio\\app\\src\\main\\res\\drawable-v24\\third.jpg"
+    },
+    {
         "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f5f2e2c9835f97e586b18f6210c9c8e0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -848,6 +856,10 @@
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f5f2e2c9835f97e586b18f6210c9c8e0\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_select.xml.flat",
+        "source": "C:\\Users\\Public\\Dominio\\app\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
         "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f5f2e2c9835f97e586b18f6210c9c8e0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
@@ -930,6 +942,10 @@
     {
         "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_divider_material.xml.flat",
         "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f5f2e2c9835f97e586b18f6210c9c8e0\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_first.jpg.flat",
+        "source": "C:\\Users\\Public\\Dominio\\app\\src\\main\\res\\drawable-v24\\first.jpg"
     },
     {
         "merged": "C:\\Users\\Public\\Dominio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
