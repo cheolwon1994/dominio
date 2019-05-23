@@ -21,7 +21,6 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnRegist;
     private Button btnLogin;
     private EditText student_id;
     private EditText password;
@@ -30,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG_Student_id = "student_id";
     private static final String TAG_pwd = "pwd";
     JSONArray peoples = null;
-    //ArrayList<HashMap<String, String>> personList;
     int flag=0;
 
     @Override

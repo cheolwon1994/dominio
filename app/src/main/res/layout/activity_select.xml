@@ -9,27 +9,35 @@
 
 
     <Button
-        android:id="@+id/btnClubList"
+        android:id="@+id/btnTrainProgram"
         android:layout_width="189dp"
-        android:layout_height="53dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="105dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="130dp"
         android:background="@drawable/first" />
 
     <Button
-        android:id="@+id/btnFest"
+        android:id="@+id/btnRecord"
         android:layout_width="189dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
         android:layout_marginStart="105dp"
         android:background="@drawable/second"
         android:textSize="25sp" />
 
     <Button
+        android:id="@+id/btnModify"
+        android:layout_width="189dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="105dp"
+        android:background="@drawable/zero" />
+
+    <Button
         android:id="@+id/btnBoard"
         android:layout_width="189dp"
-        android:layout_height="53dp"
+        android:layout_height="50dp"
         android:layout_marginTop="340dp"
         android:layout_marginStart="105dp"
         android:background="@drawable/third" />

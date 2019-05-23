@@ -11,10 +11,10 @@ public class SelectActivity extends AppCompatActivity {
 
     private String student_id;
 
-    Button btnClubList;
-    Button btnFest;
+    Button btnTrainProgram;
+    Button btnRecord;
+    Button btnModfiy;
     Button btnBoard;
-    Button btnSetting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +24,11 @@ public class SelectActivity extends AppCompatActivity {
         Intent intent = getIntent();
         student_id = intent.getStringExtra("id");
 
+
+        btnTrainProgram = (Button)findViewById(R.id.btnTrainProgram);
+        btnRecord = (Button)findViewById(R.id.btnRecord);
+        btnModfiy=(Button)findViewById(R.id.btnModify);
         btnBoard = (Button)findViewById(R.id.btnBoard);
-        btnClubList = (Button)findViewById(R.id.btnClubList);
-        btnFest = (Button)findViewById(R.id.btnFest);
-        btnSetting=(Button)findViewById(R.id.btnSetting);
 
         /*btnBoard.setOnClickListener(new View.OnClickListener() {
 
