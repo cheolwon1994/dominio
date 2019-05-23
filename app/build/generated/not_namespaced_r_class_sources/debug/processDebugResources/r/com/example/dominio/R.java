@@ -3400,6 +3400,7 @@ public final class R {
     public static final int third=0x7f060066;
     public static final int tooltip_frame_dark=0x7f060067;
     public static final int tooltip_frame_light=0x7f060068;
+    public static final int zero=0x7f060069;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3437,10 +3438,10 @@ public final class R {
     public static final int blocking=0x7f070020;
     public static final int bottom=0x7f070021;
     public static final int btnBoard=0x7f070022;
-    public static final int btnClubList=0x7f070023;
-    public static final int btnFest=0x7f070024;
-    public static final int btnLogin=0x7f070025;
-    public static final int btnSetting=0x7f070026;
+    public static final int btnLogin=0x7f070023;
+    public static final int btnModify=0x7f070024;
+    public static final int btnRecord=0x7f070025;
+    public static final int btnTrainProgram=0x7f070026;
     public static final int buttonPanel=0x7f070027;
     public static final int center=0x7f070028;
     public static final int center_horizontal=0x7f070029;

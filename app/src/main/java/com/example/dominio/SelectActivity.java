@@ -59,17 +59,7 @@ public class SelectActivity extends AppCompatActivity {
             }
 
         });
-
-        btnSetting.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),SettingActivity.class);
-                intent.putExtra("id",student_id);
-                startActivity(intent);
-            }
-
-        });*/
+        */
 
     }
 }

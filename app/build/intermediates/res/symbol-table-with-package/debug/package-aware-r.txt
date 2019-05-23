@@ -648,6 +648,7 @@ drawable second
 drawable third
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable zero
 id ALT
 id CTRL
 id FUNCTION
@@ -683,10 +684,10 @@ id beginning
 id blocking
 id bottom
 id btnBoard
-id btnClubList
-id btnFest
 id btnLogin
-id btnSetting
+id btnModify
+id btnRecord
+id btnTrainProgram
 id buttonPanel
 id center
 id center_horizontal
