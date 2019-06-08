@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText password;
     String myJSON;
     private static final String TAG_RESULTS = "result";
-    private static final String TAG_Student_id = "student_id";
-    private static final String TAG_pwd = "pwd";
+    private static final String TAG_CID = "CID";
+    private static final String TAG_PW = "PW";
     JSONArray peoples = null;
     int flag=0;
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
+
 
                 if( student_id.getText().toString().length() == 0 ) {
                     Toast.makeText(MainActivity.this, "학번을 입력하세요!", Toast.LENGTH_SHORT).show();
@@ -58,21 +58,22 @@ public class MainActivity extends AppCompatActivity {
                 }
                 Log.i("before","before");
 
-                getData("http://52.11.180.128/dbProject/1.php"); //수정 필요
+                getData("http://15.164.163.148/dominio/login.php"); //수정 필요
                 Log.i("after","after");
-                */
 
-                //if(flag == 1)
+/*
+                if(flag == 1)
                 {
                     flag = 0;
                     Intent intent = new Intent(getApplicationContext(), SelectActivity.class);
                     startActivityForResult(intent,2000);
                 }
-                /*else
+                else
                 {
                     Toast.makeText(MainActivity.this, "잘못입력했습니다.", Toast.LENGTH_SHORT).show();
                     return;
-                }*/
+                }
+                */
 
 
 
@@ -87,8 +88,8 @@ public class MainActivity extends AppCompatActivity {
 
             for (int i = 0; i < peoples.length(); i++) {
                 JSONObject c = peoples.getJSONObject(i);
-                String id = c.getString(TAG_Student_id);
-                String pwd = c.getString(TAG_pwd);
+                String id = c.getString(TAG_CID);
+                String pwd = c.getString(TAG_PW);
 
                 if((id.equals(student_id.getText().toString())) && (pwd.equals(password.getText().toString())))
                 {flag = 1; break;}
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
             Log.i("finish","finish");
 
-            /*if(flag == 1)
+            if(flag == 1)
             {
                 flag = 0;
                 Intent intent = new Intent(getApplicationContext(), SelectActivity.class);
@@ -110,9 +111,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 Toast.makeText(MainActivity.this, "잘못입력했습니다.", Toast.LENGTH_SHORT).show();
                 return;
-            }*/
-
-
+            }
 
             return ;
 
@@ -136,6 +135,8 @@ public class MainActivity extends AppCompatActivity {
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                     StringBuilder sb = new StringBuilder();
 
+                    InputStreamReader i = new InputStreamReader(con.getInputStream());
+
                     bufferedReader = new BufferedReader(new InputStreamReader(con.getInputStream()));
 
                     String json;
@@ -155,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void onPostExecute(String result) {
                 myJSON = result;
+
                 showList();
             }
         }

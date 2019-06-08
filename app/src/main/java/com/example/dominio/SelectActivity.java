@@ -13,7 +13,7 @@ public class SelectActivity extends AppCompatActivity {
 
     Button btnTrainProgram;
     Button btnRecord;
-    Button btnModfiy;
+    Button btnModify;
     Button btnBoard;
 
     @Override
@@ -27,8 +27,19 @@ public class SelectActivity extends AppCompatActivity {
 
         btnTrainProgram = (Button)findViewById(R.id.btnTrainProgram);
         btnRecord = (Button)findViewById(R.id.btnRecord);
-        btnModfiy=(Button)findViewById(R.id.btnModify);
+        btnModify=(Button)findViewById(R.id.btnModify);
         btnBoard = (Button)findViewById(R.id.btnBoard);
+
+        btnTrainProgram.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),TpActivity.class);
+                intent.putExtra("id",student_id);
+                startActivity(intent);
+            }
+
+        });
 
         /*btnBoard.setOnClickListener(new View.OnClickListener() {
 
@@ -41,7 +52,7 @@ public class SelectActivity extends AppCompatActivity {
 
         });
 
-        btnClubList.setOnClickListener(new View.OnClickListener() {
+        btnRecord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),ClubListActivity.class);
@@ -49,7 +60,18 @@ public class SelectActivity extends AppCompatActivity {
             }
         });
 
-        btnFest.setOnClickListener(new View.OnClickListener() {
+        btnModify.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),FestivalActivity.class);
+                intent.putExtra("id",student_id);
+                startActivity(intent);
+            }
+
+        });
+
+        btnBoard.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
